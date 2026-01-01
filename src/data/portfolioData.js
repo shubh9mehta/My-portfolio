@@ -5,12 +5,13 @@ export const personalInfo = {
   name: "Shubh Mehta",
   title: "Data Analyst",
   tagline: "I solve operational headaches with data.",
-  description: "Data & Business Analyst transforming complex datasets into actionable insights. From supply chain optimization to AI-powered research systems.",
+  description:
+    "Data & Business Analyst transforming complex datasets into actionable insights. From supply chain optimization to AI-powered research systems.",
   location: "United States",
-  phone: "+1-812-803-4508",
+  phone: "+18128034508", // ✅ mobile-friendly tel: format
   email: "shubh9mehta@gmail.com",
-  linkedin: "https://www.linkedin.com/in/shubh9mehta/", // Update this!
-  github: "https://github.com/shubh9mehta/", // Update this!
+  linkedin: "https://www.linkedin.com/in/shubh9mehta/",
+  github: "https://github.com/shubh9mehta/",
   openToWork: true,
   targetRoles: ["Data Analyst", "Business Analyst"],
   targetLocation: "USA",
@@ -150,55 +151,54 @@ export const projects = [
       "End-to-end ETL pipeline using Mage-AI on GCP processing 150,000+ trip records into BigQuery, with automated Looker Studio dashboards.",
     highlights: [
       "Designed fact-dimension data warehouse schema",
-      "Identified peak revenue hours (3-7 AM) and high-value pickup zones",
-      "Automated dashboard refresh via Google Cloud Scheduler",
-      "$4M+ transaction analysis with 82% credit card adoption insights",
+      "Automated dashboard refresh via Cloud Scheduler",
+      "Analyzed $4M+ in transactions to identify peak revenue windows and high-value zones",
     ],
     tech: ["GCP", "BigQuery", "Mage-AI", "Looker Studio", "Python"],
     metric: "$4M+ analyzed",
-    link: "#", // Add your GitHub link
+    link: "https://github.com/shubh9mehta/LA-Crime-Visualisations", // add GitHub/demo link when ready
   },
   {
     title: "Sales Data Analysis for Hardware Company",
     category: "Business Intelligence",
     description:
-      "Multi-dimensional sales and financial data analysis with interactive Tableau dashboards for strategic planning.",
+      "Multi-dimensional sales and financial analysis with interactive Tableau dashboards for planning and executive reporting.",
     highlights: [
-      "Built interactive dashboards with filters and drill-downs",
-      "Visualized regional performance and profit margins",
-      "Created reusable reporting framework for executives",
+      "Built drill-down dashboards with segment and region filters",
+      "Tracked margin and revenue drivers to surface underperforming segments",
+      "Created a reusable reporting framework for weekly business reviews",
     ],
     tech: ["SQL", "Excel", "Tableau", "Data Modeling"],
     metric: "35% faster reporting",
-    link: "#",
+    link: "#", // add link when ready
   },
   {
-    title: "AI-Powered Research Assistant",
-    category: "NLP / RAG",
+    title: "Telecom Customer Churn Prediction",
+    category: "Customer Analytics",
     description:
-      "Flask-based semantic search system using GPT-4o and SentenceTransformers for 10,000+ academic records.",
+      "Predictive churn modeling to identify at-risk customers and key churn drivers for targeted retention actions.",
     highlights: [
-      "90% reduction in information retrieval time",
-      "Semantic search with cosine similarity",
-      "Automated 15+ data source ingestion",
+      "Built and evaluated classification models with feature engineering",
+      "Identified top churn drivers and translated them into retention levers",
+      "Produced a final scoring output to prioritize outreach",
     ],
-    tech: ["Python", "Flask", "GPT-4o", "SentenceTransformers", "JSON"],
-    metric: "90% faster search",
-    link: "#",
+    tech: ["Python", "pandas", "scikit-learn", "Classification", "EDA"],
+    metric: "Churn risk scoring",
+    link: "https://github.com/shubh9mehta/Customer-Churn-Analysis-in-Telecom-Sector", // add GitHub link if you have it
   },
   {
-    title: "IPO Blockholder Analysis",
-    category: "Financial Research",
+    title: "CKD Risk Prediction with Explainability",
+    category: "Healthcare ML",
     description:
-      "Large-scale fuzzy matching and statistical analysis linking 21,000+ IPO records for layoff prediction research.",
+      "Clinical risk prediction model for Chronic Kidney Disease outcomes, paired with explainability to support trustworthy decisions.",
     highlights: [
-      "94% match rate on 22,383 records",
-      "Logistic regression revealing founder-CEO impact",
-      "38% runtime optimization via Stata vectorization",
+      "Trained supervised models and tuned performance with validation",
+      "Used SHAP to explain predictions and highlight clinical risk factors",
+      "Packaged results into a clear report for non-technical audiences",
     ],
-    tech: ["Python", "Stata", "Fuzzy Matching", "Logistic Regression"],
-    metric: "94% accuracy",
-    link: "#",
+    tech: ["Python", "scikit-learn", "SHAP", "Feature Engineering", "Modeling"],
+    metric: "Explainable ML",
+    link: "https://github.com/shubh9mehta/ckd-events-prediction", // add GitHub link if you have it
   },
 ];
 

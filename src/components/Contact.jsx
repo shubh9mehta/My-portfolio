@@ -59,7 +59,7 @@ const Contact = () => {
 
           {/* Resume download (FORCED FILENAME) */}
           <a
-            href="public/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download="ShubhMehta_Analyst_Resume.pdf"
