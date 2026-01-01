@@ -9,8 +9,8 @@ export const personalInfo = {
   location: "United States",
   phone: "+1-812-803-4508",
   email: "shubh9mehta@gmail.com",
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN", // Update this!
-  github: "https://github.com/YOUR_GITHUB", // Update this!
+  linkedin: "https://www.linkedin.com/in/shubh9mehta/", // Update this!
+  github: "https://github.com/shubh9mehta/", // Update this!
   openToWork: true,
   targetRoles: ["Data Analyst", "Business Analyst"],
   targetLocation: "USA",
